@@ -1,3 +1,18 @@
+# User
+
+1. Admin
+
+![image](https://github.com/user-attachments/assets/a530b531-0501-40ac-a74f-edb94721961e)
+
+2. Super User
+   
+![image](https://github.com/user-attachments/assets/04dccc6e-5e13-4d6b-88b3-257319be8980)
+
+3. User
+
+![image](https://github.com/user-attachments/assets/e9ece9ad-c46a-4a93-b186-b22db7dd0ef5)
+
+
 # Query 
 
 ## Mencari Username dan Password Yang Sesuai
@@ -31,3 +46,15 @@ SELECT anggota.ID_anggota, anggota.no_induk, anggota.username, anggota.password,
 
 ## 	Mencari Anggota
 SELECT anggota.ID_anggota, pengunjung.nama FROM anggota JOIN pengunjung ON anggota.no_induk = pengunjung.no_induk WHERE ID_anggota = '$ID_anggota ';
+
+# Index B-Tree
+
+1.	Index untuk Pencarian Buku Berdasarkan Judul
+
+![image](https://github.com/user-attachments/assets/dadc955b-63f0-4355-9d2a-2ec6d95f6ea1)
+
+
+2.	Index untuk Pencarian Peminjaman Berdasarkan Tanggal Pinjam dan Tanggal Kembali
+
+![image](https://github.com/user-attachments/assets/29ee753f-25e1-48d9-ac7e-87f81fc062ea)
+
